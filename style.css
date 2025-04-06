@@ -143,7 +143,7 @@ html {
 body {
   font: var(--txt-regular);
   color: var(--clr-black);
-  padding: var(---400) var(---200);
+  padding: var(--padding-400) var(--padding-200);
   margin: auto;
   background: #F6F5F6;
   display: grid;
@@ -152,7 +152,7 @@ body {
 
 main {
   display: grid;
-  gap: var(---400);
+  gap: var(--padding-400);
 }
 
 .group {
@@ -163,7 +163,7 @@ main {
 
 .box {
   border-radius: 10px;
-  padding: var(---200);
+  padding: var(--padding-200);
   width: 100%;
 }
 
@@ -174,9 +174,9 @@ main {
 
 .a { /* 10x faster with AI */
   background: var(--clr-purple-500);
-  padding: var(---500) var(---400);
+  padding: var(--padding-500) var(--padding-400);
   display: grid;
-  gap: var(---300);
+  gap: var(--padding-300);
   font: var(--_txt-heading-1);
   color: var(--clr-white);
   text-align: center;
@@ -209,7 +209,7 @@ main {
   font: var(--_txt-medium);
   letter-spacing: var(--txt-ls-medium);
   display:grid;
-  gap:var(---200);
+  gap:var(--padding-200);
 }
 
 .b img {
@@ -222,7 +222,7 @@ main {
   font: var(--_txt-medium);
   letter-spacing: var(--txt-ls-medium);
   display: grid;
-  gap: var(---200);
+  gap: var(--padding-200);
 }
 
 .c .image__container {
@@ -238,8 +238,8 @@ main {
 .d { /* Schedule to Social Media */
   background: var(--clr-purple-100);
   display: grid;
-  gap: var(---300);
-  padding: var(---400);
+  gap: var(--padding-300);
+  padding: var(--padding-400);
   text-align: center;
 }
 
@@ -259,17 +259,17 @@ main {
 
 .e { /* Follower Growth */
   background: var(--clr-purple-500);
-  padding: var(---300);
+  padding: var(--padding-300);
   font: var(--_txt-heading-2);
   letter-spacing: var(--txt-ls-heading-2);
   text-align: center;
   color: white;
   display: grid;
-  gap: var(---500);
+  gap: var(--padding-500);
 }
 
 .e p {
-  padding: 0 var(---200);
+  padding: 0 var(--padding-200);
 }
 
 .e img {
@@ -279,14 +279,14 @@ main {
 
 .f { /* 56% */
   background: var(--clr-white);
-  padding: var(---300);
+  padding: var(--padding-300);
   display: grid;
-  gap: var(---300);
+  gap: var(--padding-300);
 }
 
 .f .text {
   display: grid;
-  gap: var(---200);
+  gap: var(--padding-200);
 }
 
 .f h3 {
@@ -299,9 +299,9 @@ main {
 
 .g { /* Create Post */
   background :var(--clr-yellow-100);
-  padding: var(---400);
+  padding: var(--padding-400);
   display: grid;
-  gap: var(---300);
+  gap: var(--padding-300);
 }
 
 .g p {
@@ -319,9 +319,9 @@ main {
 
 .h { /* Write with AI */
   background :var(--clr-yellow-500);
-  padding: var(---300);
+  padding: var(--padding-300);
   display: grid;
-  gap: var(---300);
+  gap: var(--padding-300);
   font: var(--_txt-heading-2);
   letter-spacing: var(--txt-ls-heading-2);
 }
