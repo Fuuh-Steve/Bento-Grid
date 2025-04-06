@@ -341,12 +341,6 @@ main {
   color: var(--clr-purple-500);
   border-radius: 3px;
   transition: 150ms ease;
-
-  &:hover {
-    background: var(--clr-purple-500);
-    padding: 4px;
-    color: var(--clr-white);
-  }
 }
 
 @media only screen and (min-width: 48rem ) {
