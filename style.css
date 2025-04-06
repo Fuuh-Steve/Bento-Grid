@@ -127,11 +127,11 @@ textarea:not([rows]) {
     */
 
 	/* Espaçamento: */
-	---500: 2.5rem;
-	---400: 2rem;
-	---300: 1.5rem;
-	---200: 1rem;
-	---100: .5rem;
+	--padding-500: 2.5rem;
+	--padding-400: 2rem;
+	--padding-300: 1.5rem;
+	--padding-200: 1rem;
+	--padding-100: .5rem;
 }
 
 html {
