@@ -189,7 +189,7 @@ main {
 
 .a .stars { 
   display: grid;
-  gap: var(---100);
+  gap: var(--padding-100);
   font: var(--txt-regular);
   letter-spacing: var(--txt-ls-regular);
 
